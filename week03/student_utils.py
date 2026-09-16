@@ -10,8 +10,10 @@ def calculate_grade(marks):
     else:
         return "F"
 
+
 def calculate_average(marks):
     return sum(marks) / len(marks)
+
 
 def format_summary(name, average, grade):
     return f"{name} average is {average:.2f} with grade {grade}"
