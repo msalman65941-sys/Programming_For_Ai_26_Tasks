@@ -36,6 +36,6 @@ def main():
     print()
     print(regression_model.describe())
     print("Training state:", regression_model.is_trained)
-    
+
 if __name__ == "__main__":
     main()
