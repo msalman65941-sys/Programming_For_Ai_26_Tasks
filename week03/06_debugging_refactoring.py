@@ -10,8 +10,9 @@ try:
     age = int(input("Age: "))
 except ValueError:
     print("Invalid input. Please enter a valid integer for age.")
-except:  
+except:
     pass
+
 
 def calculate_grade(mark):
     if mark >= 85:
