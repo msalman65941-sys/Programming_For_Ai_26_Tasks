@@ -1,0 +1,12 @@
+AI Experiment Summary
+======================
+
+EXP-001 | Logistic Regression | Accuracy: 0.84
+EXP-002 | Decision Tree | Accuracy: 0.88
+EXP-003 | kNN | Accuracy: 0.91
+
+Best Experiment
+----------------
+ID: EXP-003
+Model: kNN
+Accuracy: 0.91
