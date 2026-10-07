@@ -1,0 +1,7 @@
+student_id,column,original_value,cleaning_decision,reason
+1004,attendance,110.0,Replace with missing,Value is outside the valid 0–100 range
+1009,attendance,-5.0,Replace with missing,Value is outside the valid 0–100 range
+Multiple,attendance,Missing,Program median; original overall median as fallback,Imputed 3 missing value(s)
+Multiple,assignment,Missing,Column median,Imputed 1 missing value(s)
+Multiple,midterm,Missing,Column median,Imputed 1 missing value(s)
+Multiple,final,Missing,Column median,Imputed 1 missing value(s)
