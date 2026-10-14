@@ -7,7 +7,9 @@ from patient_dataset import PatientDataset
 
 print("Current folder:", Path(__file__).parent)
 print("Data folder exists:", (Path(__file__).parent / "data").exists())
-print("CSV file exists:", (Path(__file__).parent / "data" / "patients_messy.csv").exists())
+print(
+    "CSV file exists:", (Path(__file__).parent / "data" / "patients_messy.csv").exists()
+)
 
 # Get the existing patient CSV file
 csv_path = Path(__file__).parent / "data" / "patients_messy.csv"
