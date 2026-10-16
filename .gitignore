@@ -1,46 +1,22 @@
-# Visual Studio
-.vs/
+# Ignore everything in the project root
+/*
 
-# Python environments
+# Allow Git configuration
+!/.gitignore
+
+# Allow weekly labs (week01, week02, week03...)
+!/week[0-9][0-9]/
+
+# Ignore environments and temporary files
 .venv/
 venv/
 env/
 environment/
-
-# Assignments
-Assignment_01/
-Assignment_02/
-
-# Python Cache
-__pycache__/
-*.pyc
-
-# Jupyter Checkpoints
-.ipynb_checkpoints/
-
-# Secrets
-.env
-.env.*
-
-# Ignore all future assignments
-Assignment_*/
-
-# Ignore Python environments
-.venv/
-venv/
-env/
-environment/
-
-# Ignore Visual Studio files
 .vs/
-
-# Ignore Python cache
 __pycache__/
 *.pyc
-
-# Ignore Jupyter checkpoints
 .ipynb_checkpoints/
 
-# Ignore private environment files
+# Ignore private files
 .env
 .env.*
