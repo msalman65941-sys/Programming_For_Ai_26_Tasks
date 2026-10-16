@@ -1,0 +1,23 @@
+# Visual Studio
+.vs/
+
+# Python environments
+.venv/
+venv/
+env/
+environment/
+
+# Assignments
+Assignment_01/
+Assignment_02/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Jupyter Checkpoints
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
