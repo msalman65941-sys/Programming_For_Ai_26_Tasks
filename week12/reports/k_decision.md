@@ -1,0 +1,3 @@
+# K-Means Cluster Decision
+
+I would choose k = 3 for the pilot because it provides a good balance between cluster separation and business simplicity. Three customer groups are easier for the wholesale account team to understand and manage. However, if k = 4 has a better silhouette score or more meaningful spending patterns, it may also be worth considering. I would also check cluster sizes to avoid very small or dominant groups. The final choice should focus on useful customer segments rather than mathematical scores alone.
